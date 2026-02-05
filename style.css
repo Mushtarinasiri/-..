@@ -1,0 +1,507 @@
+*{
+	box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+        
+    }
+
+
+.box1{
+    padding: 30px;
+    background-color:peru;
+        color: black; 
+    text-align: center;
+    text-shadow: 0 0 15px rgba(0,0,0,0,2);
+    
+}
+.box1 img{
+    text-align: center;
+    
+    width: 180px;
+    text-shadow: 5;
+    margin-top: 15px;
+
+}
+
+.box2{
+    background: url(background-img1.jpg);
+    background-position: center;
+    background-size: cover;
+    
+    background-repeat: no-repeat;
+    height: 400px;
+    padding: 400px;
+    direction: rtl;
+
+    text-align: justify;
+    color: black;
+    text-align: right;
+   
+}
+.card5{
+    padding: 10px; 
+    border-radius: 10px;
+    text-align:center;
+    border: 5px solid peru;
+     background-color: blanchedalmond; 
+     align-items: flex-start; 
+ 
+}
+.box3{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 40px;
+    background-color: bisque;
+    flex-wrap: wrap;
+    text-align: right;
+}
+
+.box4{
+    background-color:blanchedalmond ;
+      padding: 10px; 
+      width: 230px;
+    border-radius: 10px;
+    text-align:right; 
+    direction: rtl;
+    border: 5px solid peru;
+     align-items: flex-start;
+     padding-bottom: 10px; 
+     order: 2;
+     transition: transform 0.5s ease; 
+}
+.box4:hover{
+    transform: scale(1.1);
+     box-shadow: 0 10px 20px goldenrod;
+}
+
+.box5{
+    background-color: blanchedalmond;
+    border: 5px solid peru;
+      padding: 20px;
+      border-radius: 20px;
+      order: 1;
+       display: flex; flex-wrap: wrap;   
+}
+.box5 img {
+    margin-top: 15px;
+    width: 280px;
+    border-radius: 20px;
+    display: flex;
+    transition: transform 0.5s ease; 
+}
+.box5:hover{
+    transform: scale(1.1); box-shadow: 0 10px 20px goldenrod;
+}
+.box6{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 100px;
+    background-color:bisque;
+    flex-wrap: wrap;
+    text-align: center;
+    direction: rtl;
+}
+.box7{
+     background-color:blanchedalmond ;
+      padding: 10px; 
+      width: 230px;
+    border-radius: 10px;
+    text-align:right; 
+    direction: rtl;
+     align-items: flex-start;
+     padding-bottom: 10px; 
+     border: 5px solid peru;
+transition: transform 0.5s ease; 
+}
+
+.box7:hover{
+    transform: scale(1.1);
+}
+.box8{
+background-color: blanchedalmond;
+      padding: 20px;
+      border: 5px solid peru;
+      border-radius: 20px;
+      order: 1;
+       display: flex; flex-wrap: wrap;   
+}
+.box8 img {
+    margin-top: 15px;
+    width: 280px;
+    border-radius: 20px;
+    display: flex;
+    transition: transform 0.5s ease; 
+}
+.box8:hover{
+    transform: scale(1.1); box-shadow: 0 10px 20px goldenrod;
+}
+.box9{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 40px;
+    background-color: bisque;
+    flex-wrap: wrap;
+    text-align: right;
+}
+
+    
+.box10{
+    background-color: blanchedalmond;
+    text-align: center;
+      border-radius: 20px;
+       display: flex; 
+       flex-wrap: wrap;
+       direction: rtl;   
+}
+.box10 video {
+    height: 300px; display: block; margin: 20px auto; object-fit: cover;
+    width: 300px;
+    border-radius: 10px; border: 5px solid goldenrod;
+    display: flex;
+}
+.card1{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 60px;
+    background-color: bisque;
+    flex-wrap: wrap;
+    text-align: right;
+}
+.card2{
+    background-color:blanchedalmond;
+    border-radius: 5px; padding: 50px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0,15);
+    display: flex; direction: rtl; 
+
+}
+.card2 video{
+border: 5px solid peru;
+    text-align: center;
+    border-radius: 10px;
+    object-fit: cover;
+    justify-content: center;
+}
+.contact{
+    background-color: bisque; width: 100%; padding: 100px;
+}
+.contact-box {
+border: 5px solid peru;
+    background-color: blanchedalmond; /* رنگ ملایم */
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+    text-align: center;
+    max-width: 800px;
+    margin: 40px auto;
+}
+
+.contact-box h3 {
+    font-size: 24px;
+    color: #5c4033;
+    margin-bottom: 15px;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+}
+
+.contact-box p {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.social-links a {
+    display: inline-block;
+    margin: 0 10px;
+    padding: 10px 15px;
+    background-color: #d9b382;
+    color: white;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+.social-links a:hover {
+    transform: scale(1.1);
+    background-color: #c49a6c;
+}
+@media screen and (max-width: 720px) {
+
+  .box1 {
+    padding: 15px;
+    font-size: 16px;
+  }
+
+  .box1 img {
+    width: 100px;
+  }
+
+  .box2 {
+    height: auto;
+    padding: 40px;
+  }
+
+  .box3,
+  .box6,
+  .box9,
+  .card1 {
+    padding: 20px;
+    gap: 15px;
+  }
+
+  .box4,
+  .box7 {
+    width: 100%;
+  }
+
+  .box5 img,
+  .box8 img {
+    width: 100%;
+  }
+
+  .box10 video {
+    width: 100%;
+    height: auto;
+  }
+
+  .contact-box {
+    margin: 20px;
+    padding: 20px;
+  }
+
+}
+
+@media (max-width: 720px) {
+
+  .card1, .card2 {
+    display: block !important;   /* فلکس را می‌شکند */
+    width: 100% !important;      /* پهنا ۱۰۰٪ موبایل */
+    margin-bottom: 20px;         /* فاصله بین کارت‌ها */
+    box-sizing: border-box;      /* padding در عرض حساب شود */
+  }
+
+  .card1 > * {
+    width: 100% !important;
+  }
+/* ویدیو کاملاً ریسپانسیف */
+.card2 video,
+.box10 video {
+    width: 100% !important;
+    height: auto !important;
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+}
+
+@media (max-width: 720px){
+
+  .social-links{
+    
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .social-links a{
+    width: 100%;
+     max-width: 250px;
+    text-align: center;
+  }
+
+}
+.container {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    background-color: bisque;
+    flex-wrap: wrap;
+}
+
+.container1 {
+    background-color:  blanchedalmond;
+    
+    padding: 20px;
+    text-align: center;
+    direction: rtl;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container1 h3, .container1 p {
+    max-width: 800px;
+    margin: 10px auto;
+    text-align: justify;
+}
+
+/* کانتینر عکس */
+.image-card {
+    border: 5px solid peru;
+    position: relative;
+    width: 300px;
+    height: 300px;
+    margin: 20px auto;
+    border-radius: 10px;
+    overflow: hidden; /* جلوگیری از بیرون زدن overlay */
+}
+
+.image-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+/* overlay و متن */
+.image-card .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.4); /* فلتر ملایم */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    opacity: 0; /* اول پنهان است */
+    transition: opacity 0.3s ease;
+}
+
+/* افکت hover */
+.image-card:hover img {
+    transform: scale(1.05);
+}
+
+.image-card:hover .overlay {
+    opacity: 1;
+}
+
+/* ریسپانسیف موبایل */
+@media (max-width: 720px) {
+    .image-card {
+        width: 80%;
+        height: auto;
+    }
+
+    .image-card img {
+        height: auto;
+    }
+}
+
+/* ریسپانسیف تبلت */
+@media (max-width: 1024px) {
+    .image-card {
+        width: 200px;
+        height: 200px;
+    }
+}
+.contact box2{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 60px;
+    background-color: bisque;
+    flex-wrap: wrap;
+    text-align: right;
+}
+.comment{
+    display: inline-block;
+    justify-content: center;
+    gap: 30px;
+    padding: 60px;
+    background-color: bisque;
+    flex-wrap: wrap;
+    text-align: right;
+}
+.comment1{
+    background-color:blanchedalmond;
+    border-radius: 5px; padding: 50px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0,15);
+    display: flex; direction: rtl; 
+
+}
+.comment {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 10px;
+    padding: 60px;
+    background-color: bisque;
+    text-align: right;
+}
+.box7{
+     background-color:blanchedalmond ;
+      padding: 10px; 
+      width: 230px;
+    border-radius: 10px;
+    text-align:right; 
+    direction: rtl;
+     align-items: flex-start;
+     padding-bottom: 10px; 
+     border: 5px solid peru;
+transition: transform 0.5s ease; 
+}
+
+.box7:hover{
+    transform: scale(1.1);
+}
+
+/* کلاس مشترک برای همه باکس‌ها */
+.comment1, .comment2, .comment3, .comment4, .comment5, .comment6, .comment7 {
+    background-color: blanchedalmond;
+    padding: 30px;
+    border-radius: 10px;
+    border: 5px solid peru;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    text-align: center;
+    direction: rtl;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-content: center;
+    min-height: 150px;
+    transition: transform 0.5s ease;
+}
+
+.comment1:hover, .comment2:hover, .comment3:hover, .comment4:hover,
+.comment5:hover, .comment6:hover, .comment7:hover {
+    transform: scale(1.05);
+}
+
+/* مدیا کیوری موبایل */
+@media (max-width: 720px) {
+    .comment {
+        grid-template-columns: 1fr;
+        padding: 30px;
+        gap: 15px;
+    }
+
+    .comment1, .comment2, .comment3, .comment4,
+    .comment5, .comment6, .comment7 {
+        min-height: auto;
+        padding: 20px;
+    }
+}
+
+/* مدیا کیوری تبلت */
+@media (max-width: 1024px) {
+    .comment {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        padding: 40px;
+    }
+
+    .comment1, .comment2, .comment3, .comment4,
+    .comment5, .comment6, .comment7 {
+        min-height: 220px;
+        padding: 25px;
+    }
+    
